@@ -1,15 +1,16 @@
 .header {
   background-color: #020530;
   color: white;
-  height: 60px;
+  height: 80px;
 }
 
 .header .navbar-brand {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .header .nav-link {
+  color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -27,6 +28,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   transition: background-color 0.3s;
+  border-radius: 0%;
 }
 
 .header .btn:hover {

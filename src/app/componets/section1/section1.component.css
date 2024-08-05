@@ -3,3 +3,9 @@
   justify-content: center;
   margin: 30px;
 }
+
+.carousel-image {
+  width: 200%; /* Ajusta a largura da imagem conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
