@@ -6,7 +6,7 @@
 
 .navbar-brand {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .nav-link {
@@ -28,6 +28,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   transition: background-color 0.3s;
+  border-radius: 0%;
 }
 
 .btn:hover {
