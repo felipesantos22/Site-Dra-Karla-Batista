@@ -1,36 +1,39 @@
 .header {
   background-color: #020530;
   color: white;
-  height: 80px;
+  height: 80px; /* Ajuste a altura conforme necessário */
 }
 
-.header .navbar-brand {
+.navbar-brand {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 
-.header .nav-link {
+.nav-link {
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 
-.header .nav-link:hover {
+.nav-link:hover {
   color: #79613f;
   transition: color 0.3s;
 }
 
-.header .btn {
+.btn {
   background-color: #aa906a;
   border: none;
   color: #020530;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   transition: background-color 0.3s;
-  border-radius: 0%;
 }
 
-.header .btn:hover {
+.btn:hover {
   background-color: white;
+}
+
+.navbar-nav {
+  align-items: center; /* Centraliza verticalmente os itens de navegação */
 }
