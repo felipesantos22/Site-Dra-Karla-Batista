@@ -1,16 +1,5 @@
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Centraliza verticalmente */
-  width: 100%;
-  height: 30vh; /* Altura completa do viewport para centralização vertical */
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif; /* Adicione sans-serif como fallback */
-  text-align: justify;
-  /*background-color: #f4f4f4;  Cor de fundo opcional para visualização */
-}
-
 .text-container {
   width: 1000px; /* Defina a largura fixa do contêiner de texto */
   text-align: justify;
+  margin: 20px;
 }
