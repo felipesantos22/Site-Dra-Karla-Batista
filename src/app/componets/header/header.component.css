@@ -1,7 +1,9 @@
-.header {
+header {
   background-color: #020530;
   color: white;
-  height: 100px; /* Ajuste a altura conforme necessário */
+  height: 80px; /* Ajuste a altura conforme necessário */
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .navbar-brand {
@@ -13,7 +15,6 @@
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  font-weight: 400;
 }
 
 .nav-link:hover {

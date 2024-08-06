@@ -1,11 +1,13 @@
 .image-container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
-img{
+.image-container img {
     width: 100%;
     height: auto;
-    margin: 20px;
+}
+
+.col-6 {
+    padding: 5px; /* Espaçamento entre as imagens */
 }

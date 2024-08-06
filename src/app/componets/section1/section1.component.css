@@ -1,11 +1,3 @@
-.img {
-  display: flex;
-  justify-content: center;
-  margin: 30px;
+.folder{
+  margin: 20px;
 }
-
-.carousel-image {
-  width: 100%; /* Ajusta a largura da imagem conforme necessário */
-  height: auto; /* Mantém a proporção da imagem */
-}
-
