@@ -1,41 +1,16 @@
-header {
-  background-color: #020530;
+.container-fluid {
+  background-color: #efe3d3;
   color: white;
-  height: 150px; /* Ajuste a altura conforme necessário */
   font-weight: 600;
-  font-size: 14px;
-}
-
-.navbar-brand {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
 
-.nav-link {
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+.custom-link {
+  color: inherit; /* Inherits the color from the parent element */
+  text-decoration: none; /* Removes underline */
 }
 
-.nav-link:hover {
-  color: #79613f;
-  transition: color 0.3s;
-}
-
-.btn {
-  background-color: #aa906a;
-  border: none;
-  color: #020530;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  transition: background-color 0.3s;
-  border-radius: 0%;
-}
-
-.btn:hover {
-  background-color: white;
-}
-
-.navbar-nav {
-  align-items: center; /* Centraliza verticalmente os itens de navegação */
+.custom-link:hover {
+  color: #79613f; /* Example of a custom hover color */
 }

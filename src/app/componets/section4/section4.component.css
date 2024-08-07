@@ -1,0 +1,25 @@
+body,
+html {
+  margin: 30px 0 30px 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 52px;
+}
+
+.fixed-background {
+  background-image: url("../../../assets/images/soap.jpg"); /* Caminho para a sua imagem de fundo */
+  background-size: cover; /* Faz com que a imagem cubra todo o contêiner */
+  background-attachment: fixed; /* Fixa a imagem de fundo */
+  background-position: center; /* Centraliza a imagem de fundo */
+  min-height: 60vh; /* Define a altura mínima da seção como a altura da viewport */
+  color: white; /* Torna o texto branco para melhor visibilidade */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto para melhorar a legibilidade */
+}
