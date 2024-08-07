@@ -1,5 +1,7 @@
-.container-fluid{
-    margin-top: 50px;
-    height: 200px;
-    background-color: #020530;
-}
+.container-fluid {
+    background-color: #efe3d3;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+  }
